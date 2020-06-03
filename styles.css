@@ -1,0 +1,28 @@
+.container1 {
+  background-color: aquamarine;
+  width: 80%;
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.item1 {
+  background-color: lightcoral;
+  border: 5px solid black;
+  width: 25%;
+  /* min-width: 200px; */
+  min-height: 60px;
+  margin: 4px;
+}
+
+.container2 {
+  background-color: lightgreen;
+  width: 80%;
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  min-height: 400px;
+  justify-content: space-around;
+}
